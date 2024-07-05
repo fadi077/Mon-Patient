@@ -192,7 +192,7 @@ a{
 	width: auto;
 }
 .btn1 {
-	background-color: #E4272B;
+	background-color: #1C1B3A;
 	border-radius: 20px;
 	border: 1px solid var(--blue-login);
 	color: var(--white-login);
@@ -216,7 +216,7 @@ a{
 	top: 0%;
 }
 .btn2{
-	background-color: #0367a6;
+	background-color: #FF2828;
 	border-radius: 20px;
 	border: 1px solid var(--blue-login);
 	color: var(--white-login);
