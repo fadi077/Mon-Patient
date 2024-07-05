@@ -6,11 +6,11 @@ const Doctor = () => {
       <main>
         <div className="header">
           <div className="left">
-            <h1>Doctors</h1>
+            <h1>My Staff</h1>
             <ul className="breadcrumb">
               <li><a href="#">Home</a></li>
               <li>/</li>
-              <li><a href="#" className="active">Doctors</a></li>
+              <li><a href="#" className="active text-red-500">My Staff</a></li>
             </ul>
           </div>
         </div>
@@ -27,8 +27,9 @@ const Doctor = () => {
               <thead>
                 <tr>
                   <th>Doctor Name</th>
-                  <th>Specialization</th>
-                  <th>Appointment Request</th>
+                  <th className='profession'>Profession</th>
+                  <th >Specialization</th>
+                  <th>Choose</th>
                 </tr>
               </thead>
               <tbody>
@@ -37,144 +38,54 @@ const Doctor = () => {
                     <img src="man.png" alt="Profile"/>
                     <p>Haroon Malik</p>
                   </td>
+                  <td className='pf'>Doctor</td>
                   <td>Heart</td>
-                  <td><span className="status completed">Send</span></td>
+                  <td><button className="send-button">Send</button> <button className="unlink-button">Unlink</button></td>
                 </tr>
                 <tr>
                   <td>
                     <img src="man.png" alt="Profile"/>
                     <p>Zohaib Jameel</p>
                   </td>
+                  <td className='pf'>Doctor</td>
                   <td>Brain</td>
-                  <td><span className="status pending">Pending</span></td>
+                  <td><button className="send-button">Send</button> <button className="unlink-button">Unlink</button></td>
                 </tr>
                 <tr>
                   <td>
                     <img src="man.png" alt="Profile"/>
                     <p>Shahnoor Altaf</p>
                   </td>
+                  <td className='pf'>Labor</td>
                   <td>Radiology</td>
-                  <td><span className="status process">Processing</span></td>
+                  <td><button className="send-button">Send</button> <button className="unlink-button">Unlink</button></td>
                 </tr>
                 <tr>
                   <td>
                     <img src="man.png" alt="Profile"/>
                     <p>Haroon Malik</p>
                   </td>
+                  <td className='pf'>Nurse</td>
                   <td>Heart</td>
-                  <td><span className="status completed">Send</span></td>
+                  <td><button className="send-button">Send</button> <button className="unlink-button">Unlink</button></td>
                 </tr>
                 <tr>
                   <td>
                     <img src="man.png" alt="Profile"/>
                     <p>Zohaib Jameel</p>
                   </td>
+                  <td className='pf'>Doctor</td>
                   <td>Brain</td>
-                  <td><span className="status pending">Pending</span></td>
+                  <td><button className="send-button">Send</button> <button className="unlink-button">Unlink</button></td>
                 </tr>
                 <tr>
                   <td>
                     <img src="man.png" alt="Profile"/>
                     <p>Shahnoor Altaf</p>
                   </td>
+                  <td className='pf'>Labor</td>
                   <td>Radiology</td>
-                  <td><span className="status process">Processing</span></td>
-                </tr>
-                <tr>
-                  <td>
-                    <img src="man.png" alt="Profile"/>
-                    <p>Haroon Malik</p>
-                  </td>
-                  <td>Heart</td>
-                  <td><span className="status completed">Send</span></td>
-                </tr>
-                <tr>
-                  <td>
-                    <img src="man.png" alt="Profile"/>
-                    <p>Zohaib Jameel</p>
-                  </td>
-                  <td>Brain</td>
-                  <td><span className="status pending">Pending</span></td>
-                </tr>
-                <tr>
-                  <td>
-                    <img src="man.png" alt="Profile"/>
-                    <p>Shahnoor Altaf</p>
-                  </td>
-                  <td>Radiology</td>
-                  <td><span className="status process">Processing</span></td>
-                </tr>
-                <tr>
-                  <td>
-                    <img src="man.png" alt="Profile"/>
-                    <p>Haroon Malik</p>
-                  </td>
-                  <td>Heart</td>
-                  <td><span className="status completed">Send</span></td>
-                </tr>
-                <tr>
-                  <td>
-                    <img src="man.png" alt="Profile"/>
-                    <p>Zohaib Jameel</p>
-                  </td>
-                  <td>Brain</td>
-                  <td><span className="status pending">Pending</span></td>
-                </tr>
-                <tr>
-                  <td>
-                    <img src="man.png" alt="Profile"/>
-                    <p>Shahnoor Altaf</p>
-                  </td>
-                  <td>Radiology</td>
-                  <td><span className="status process">Processing</span></td>
-                </tr>
-                <tr>
-                  <td>
-                    <img src="man.png" alt="Profile"/>
-                    <p>Haroon Malik</p>
-                  </td>
-                  <td>Heart</td>
-                  <td><span className="status completed">Send</span></td>
-                </tr>
-                <tr>
-                  <td>
-                    <img src="man.png" alt="Profile"/>
-                    <p>Zohaib Jameel</p>
-                  </td>
-                  <td>Brain</td>
-                  <td><span className="status pending">Pending</span></td>
-                </tr>
-                <tr>
-                  <td>
-                    <img src="man.png" alt="Profile"/>
-                    <p>Shahnoor Altaf</p>
-                  </td>
-                  <td>Radiology</td>
-                  <td><span className="status process">Processing</span></td>
-                </tr>
-                <tr>
-                  <td>
-                    <img src="man.png" alt="Profile"/>
-                    <p>Haroon Malik</p>
-                  </td>
-                  <td>Heart</td>
-                  <td><span className="status completed">Send</span></td>
-                </tr>
-                <tr>
-                  <td>
-                    <img src="man.png" alt="Profile"/>
-                    <p>Zohaib Jameel</p>
-                  </td>
-                  <td>Brain</td>
-                  <td><span className="status pending">Pending</span></td>
-                </tr>
-                <tr>
-                  <td>
-                    <img src="man.png" alt="Profile"/>
-                    <p>Shahnoor Altaf</p>
-                  </td>
-                  <td>Radiology</td>
-                  <td><span className="status process">Processing</span></td>
+                  <td><button className="send-button">Send</button> <button className="unlink-button">Unlink</button></td>
                 </tr>
               </tbody>
             </table>

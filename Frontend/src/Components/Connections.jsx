@@ -6,11 +6,11 @@ const Connections = () => {
       <main>
         <div className="header">
           <div className="left">
-            <h1>Connections</h1>
+            <h1>My Staff</h1>
             <ul className="breadcrumb">
               <li><a href="#">Home</a></li>
               <li>/</li>
-              <li><a href="#" className="active">Connections</a></li>
+              <li><a href="#" className="active">My Staff</a></li>
             </ul>
           </div>
           <a href="#" className="report">

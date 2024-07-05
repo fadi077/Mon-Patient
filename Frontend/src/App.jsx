@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
 
-import Connections from './Components/Connections';
+// import Connections from './Components/Connections';
 import Dashboard from './Components/Dashboard';
 import Navbar from './Components/Navbar';
 import Sidebar from './Components/Sidebar';
@@ -37,7 +37,7 @@ function App() {
           <div className="content-container">
             <Routes>
               <Route path="/" element={<Dashboard />} />
-              <Route path="/connections" element={<Connections />} />
+              {/* <Route path="/connections" element={<Connections />} /> */}
               <Route path="/doctors" element={<Doctor />} />
               {/* <Route path="/appointments" element={<Appointment />} /> */}
               <Route path="/settings" element={<Settings />} />

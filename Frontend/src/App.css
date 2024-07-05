@@ -693,5 +693,30 @@ body{
     }
 }
  
-/* Css For LOGIN section */
+/* Css For Doctor Section */
 
+
+.send-button {
+    background-color: #5A3DCC; /* Adjusted to a similar purple */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.unlink-button {
+    background-color: #FFB400; /* Adjusted to a similar orange-yellow */
+    color: red;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+.profession{
+    color: red;
+} 
+.pf{
+    color: red;
+}
+/* Giving red color to person profession */
