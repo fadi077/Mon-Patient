@@ -25,9 +25,10 @@ function Sidebar() {
       </div>
       <ul className="side-menu">
         <li><Link to="/"><i className='bx bxs-dashboard'></i>Home</Link></li>
-        {/* <li><Link to="/connections"><i className='bx bxs-check-shield'></i>Connections</Link></li> */}
+        <li><Link to="#"><i className='bx bxs-check-shield'></i>Messages</Link></li>
         <li><Link to="/doctors"><i className='bx bx-group'></i>My Staff</Link></li>
-        {/* <li><Link to="/appointments"><i className='bx bx-message-square-dots'></i>Appointments</Link></li> */}
+        <li><Link to="#"><i className='bx bx-message-square-dots'></i>search</Link></li>
+        <li><Link to="#"><i className='bx bx-message-square-dots'></i>Documents</Link></li>
         <li><Link to="/settings"><i className='bx bx-cog'></i>Settings</Link></li>
       </ul>
       <ul className="side-menu">

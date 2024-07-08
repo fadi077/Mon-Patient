@@ -24,7 +24,7 @@ const Dashboard = ({darkMode}) => {
           <div className="orders">
             <div className="header">
               <i className='bx bx-receipt'></i>
-              <h3>Recent Orders</h3>
+              <h3>Patient List</h3>
               <i className='bx bx-filter'></i>
               <i className='bx bx-search'></i>
             </div>
