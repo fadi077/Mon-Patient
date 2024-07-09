@@ -1,6 +1,6 @@
-import React from 'react';
+import React from 'react'
 
-const Settings = () => {
+function Search() {
   return (
     <div className="content">
     <main>
@@ -128,7 +128,7 @@ const Settings = () => {
         </div>
     </main>
 </div>
-  );
-};
+  )
+}
 
-export default Settings;
+export default Search

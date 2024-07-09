@@ -43,28 +43,11 @@ body.dark{
     --grey: #25252c;
     --dark: #fbfbfb
 }
-/* .app-container.dark-mode{
-    background-color: black;
-} */
 
-/* body.dark-mode {
-    background-color: black;
-    color: white;
-  }
-  
-  .app-container.dark-mode {
-    background-color: black;
-    color: white;
-  }
-  .content.dark-mode{
-    background-color: #000;
-    color: white;
-  } */
 body{
     background: var(--grey);
     overflow-x: hidden;
 }
-
 
 .sidebar{
     position: fixed;
@@ -207,13 +190,6 @@ body{
     transition: all 0.3s ease;
 }
 
-.content.dark-mode{
-    background-color: black;
-
-}
-.dark-mode{
-    background-color: #000;
-}
 .sidebar.close~.content{
     width: calc(100% - 60px);
     left: 60px;
@@ -402,26 +378,26 @@ body{
 
 .content main .insights{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
     grid-gap: 24px;
     margin-top: 36px;
 }
 
 .content main .insights li{
     padding: 24px;
-    background: var(--grey)
-    /* border-radius: 20px; */;
-    /* display: flex; */;
+    background: #4E31AA;
+    border-radius: 20px;
+    display: flex;
     align-items: center;
     grid-gap: 24px;
     cursor: pointer;
 }
 
 .content main .insights li .bx{
-    width: 100%;
-    height: 200px;
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
     font-size: 36px;
-    object-fit: cover;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -456,42 +432,7 @@ body{
 .content main .insights li .info p{
     color: #fff;
 }
- 
-.btn-1 {
-    border: none;
-    width: 100%;
-    display: inline;
-    text-shadow: 2px 2px 3px #666666;
-    font-family: Arial;
-    color: #ffffff;
-    font-size: 15px;
-    background: #3F5DA5;
-    padding: 10px 20px 10px 20px;
-    text-decoration: none;
-  }
-  
-  .btn-1:hover {
-    background: #E4272B;
-    text-decoration: none;
-  }
-  .btn {
-    border: none;
-    width: 100%;
-    display: inline;
-    text-shadow: 2px 2px 3px #666666;
-    font-family: Arial;
-    color: #ffffff;
-    font-size: 15px;
-    background:red;
-    padding: 10px 20px 10px 20px;
-    text-decoration: none;
-    margin-top: 10px;
-  }
-  
-  .btn:hover {
-    background: #3F5DA5;
-    text-decoration: none;
-  }
+
 .content main .bottom-data{
     display: flex;
     flex-wrap: wrap;
@@ -619,7 +560,7 @@ body{
 }
 
 .content main .bottom-data .reminders .task-list li .bx{
-  cursor: pointer;
+  cursor: pointer;  
 }
 
 .content main .bottom-data .reminders .task-list li.completed{
@@ -647,6 +588,7 @@ body{
 }
 
 @media screen and (max-width: 576px) {
+    
     .content nav form .form-input input{
         display: none;
     }
@@ -691,32 +633,109 @@ body{
     .content main .bottom-data .reminders .task-list{
         min-width: 340px;
     }
+
 }
- 
-/* Css For Doctor Section */
 
+/* Start Chat Bot */
 
-.send-button {
-    background-color: #5A3DCC; /* Adjusted to a similar purple */
-    color: white;
+.chat-window {
+    width: auto;
+    height: 600px;
+    /* border: 1px solid #ccc; */
+    padding: 10px;
+    overflow-y: scroll;
+    background-image: url(MonPatient.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 600px 500px;
+  }
+
+  .chat-log {
+    padding: 10px;
+  }
+
+  .input-field {
+    padding: 10px;
+    /* border-top: 1px solid #ccc; */
+  }
+
+  #message-input {
+    width: 79%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-top: 72vh;
+    text-decoration: none;
+  }
+
+  #send-button {
+    width: 20%;
+    padding: 10px;
+    background-color: #4E31AA;
+    color: #fff;
     border: none;
-    padding: 10px 20px;
-    border-radius: 20px;
-    font-weight: bold;
-}
+    border-radius: 5px;
+    cursor: pointer;
+  }
+          /* end chat bot */
 
-.unlink-button {
-    background-color: #FFB400; /* Adjusted to a similar orange-yellow */
-    color: red;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 20px;
-    font-weight: bold;
-}
-.profession{
-    color: red;
-} 
-.pf{
-    color: red;
-}
-/* Giving red color to person profession */
+    /* Start of Documents part */
+  .documents {
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 40px;
+  }
+  .file {
+    margin-left: 40px;
+    margin-bottom: 30px;
+  }
+.button1{
+        --color: #560bad;
+        font-family: inherit;
+        display: inline-block;
+        width: 8em;
+        height: 2.6em;
+        line-height: 2.5em;
+        margin: 20px;
+        position: relative;
+        overflow: hidden;
+        border: 2px solid var(--color);
+        transition: color .5s;
+        z-index: 1;
+        font-size: 17px;
+        border-radius: 6px;
+        font-weight: 500;
+        color: var(--color);
+        margin-left: 240px;
+       }
+
+       .button1:before {
+        content: "";
+        position: absolute;
+        z-index: -1;
+        background: var(--color);
+        height: 150px;
+        width: 200px;
+        border-radius: 50%;
+       }
+
+       .button1:hover {
+        color: #fff;
+       }
+
+      .button1:before {
+        top: 100%;
+        left: 100%;
+        transition: all .7s;
+       }
+
+       .button1:hover:before {
+        top: -30px;
+        left: -30px;
+       }
+
+       .button1:active:before {
+        background: #3a0ca3;
+        transition: background 0s;
+       }
+
+       

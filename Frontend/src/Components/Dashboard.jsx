@@ -14,10 +14,7 @@ const Dashboard = ({darkMode}) => {
               <li><a href="#" className="active">Dashboard</a></li>
             </ul>
           </div>
-          <a href="#" className="report">
-            <i className='bx bx-cloud-download'></i>
-            <span>Download CSV</span>
-          </a>
+         
         </div>
 
         <div className="bottom-data">
