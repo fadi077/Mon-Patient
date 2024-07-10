@@ -6,7 +6,7 @@ function Staff() {
     <main>
         <div className="header">
             <div className="left">
-                <h1>Dashboard</h1>
+                <h1> Our Staff</h1>
                 <ul className="breadcrumb">
                     <li><a href="#">Home</a></li>
                     /

@@ -6,7 +6,7 @@ const Settings = () => {
     <main>
         <div className="header">
             <div className="left">
-                <h1>Dashboard</h1>
+                <h1>Settings</h1>
                 <ul className="breadcrumb">
                     <li><a href="#">Home</a></li>
                     {/* <li><a href="#" className="active">Appointment</a></li> */}

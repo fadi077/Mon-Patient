@@ -6,126 +6,82 @@ function Search() {
     <main>
         <div className="header">
             <div className="left">
-                <h1>Dashboard</h1>
+                <h1>Search </h1>
                 <ul className="breadcrumb">
-                    <li><a href="#">Home</a></li>
-                    {/* <li><a href="#" className="active">Appointment</a></li> */}
-                </ul>
+              <li><a href="#">Home</a></li>
+              <li>/</li>
+              <li><a href="#" className="active">Search</a></li>
+            </ul>
             </div>
         </div>
 
         {/* Insights */}
-        <ul className="insights">
+        <ul className="insight">
             <li>
-                <i className='bx bx-calendar-check'></i>
+                <img className='bx bx-show-alt' src="avatar1.png" alt="Haroon Ameer"/>
                 <span className="info">
-                    <h3>1,074</h3>
-                    <p>Paid Order</p>
+                    <h3>Haroon Ameer</h3>
+                    <p>Physiotherapist</p>
                 </span>
             </li>
             <li>
-                <i className='bx bx-show-alt'></i>
+                <img className='bx bx-show-alt' src="avatar2.png" alt="Zohaib Jameel"/>
                 <span className="info">
-                    <h3>3,944</h3>
-                    <p>Site Visit</p>
+                    <h3>Zohaib Jameel</h3>
+                    <p>Physiotherapist</p>
                 </span>
             </li>
             <li>
-                <i className='bx bx-line-chart'></i>
+                <img className='bx bx-show-alt' src="avatar3.png" alt="Zainab Khan"/>
                 <span className="info">
-                    <h3>14,721</h3>
-                    <p>Searches</p>
+                    <h3>Zainab Khan</h3>
+                    <p>Physiotherapist</p>
                 </span>
             </li>
             <li>
-                <i className='bx bx-dollar-circle'></i>
+                <img className='bx bx-show-alt' src="avatar4.png" alt="Kinza Shah"/>
                 <span className="info">
-                    <h3>$6,742</h3>
-                    <p>Total Sales</p>
+                    <h3>Kinza Shah</h3>
+                    <p>Physiotherapist</p>
+                </span>
+            </li>
+            <li>
+                <img className='bx bx-show-alt' src="avatar5.png" alt="Shahnoor Altaf"/>
+                <span className="info">
+                    <h3>Shahnoor Altaf</h3>
+                    <p>Mental Case</p>
+                </span>
+            </li>
+            <li>
+                <img className='bx bx-show-alt' src="avatar1.png" alt="Awais Salamat"/>
+                <span className="info">
+                    <h3>Awais Salamat</h3>
+                    <p>Physiotherapist</p>
+                </span>
+            </li>
+            <li>
+                <img className='bx bx-show-alt' src="avatar2.png" alt="Usman Dogar"/>
+                <span className="info">
+                    <h3>Usman Dogar</h3>
+                    <p>Physiotherapist</p>
+                </span>
+            </li>
+            <li>
+                <img className='bx bx-show-alt' src="avatar3.png" alt="Aliza Rajput"/>
+                <span className="info">
+                    <h3>Aliza Rajput</h3>
+                    <p>Physiotherapist</p>
+                </span>
+            </li>
+            <li>
+                <img className='bx bx-show-alt' src="avatar4.png" alt="Mah Noor"/>
+                <span className="info">
+                    <h3>Mah Noor</h3>
+                    <p>Physiotherapist</p>
                 </span>
             </li>
         </ul>
         {/* End of Insights */}
-
-        <div className="bottom-data">
-            <div className="orders">
-                <div className="header">
-                    <i className='bx bx-receipt'></i>
-                    <h3>Recent Orders</h3>
-                    <i className='bx bx-filter'></i>
-                    <i className='bx bx-search'></i>
-                </div>
-                <table>
-                    <thead>
-                        <tr>
-                            <th>User</th>
-                            <th>Order Date</th>
-                            <th>Status</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>
-                                <img src="man.png" alt="Haroon Malik"/>
-                                <p>Haroon Malik</p>
-                            </td>
-                            <td>14-08-2023</td>
-                            <td><span className="status completed">Completed</span></td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <img src="man.png" alt="Zohaib Jameel"/>
-                                <p>Zohaib Jameel</p>
-                            </td>
-                            <td>14-08-2023</td>
-                            <td><span className="status pending">Pending</span></td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <img src="man.png" alt="Shahnoor Altaf"/>
-                                <p>Shahnoor Altaf</p>
-                            </td>
-                            <td>14-08-2023</td>
-                            <td><span className="status process">Processing</span></td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-
-            {/* Reminders */}
-            <div className="reminders">
-                <div className="header">
-                    <i className='bx bx-note'></i>
-                    <h3>Reminders</h3>
-                    <i className='bx bx-filter'></i>
-                    <i className='bx bx-plus'></i>
-                </div>
-                <ul className="task-list">
-                    <li className="completed">
-                        <div className="task-title">
-                            <i className='bx bx-check-circle'></i>
-                            <p>Start Our Meeting</p>
-                        </div>
-                        <i className='bx bx-dots-vertical-rounded'></i>
-                    </li>
-                    <li className="completed">
-                        <div className="task-title">
-                            <i className='bx bx-check-circle'></i>
-                            <p>Analyse Our Site</p>
-                        </div>
-                        <i className='bx bx-dots-vertical-rounded'></i>
-                    </li>
-                    <li className="not-completed">
-                        <div className="task-title">
-                            <i className='bx bx-x-circle'></i>
-                            <p>Play Football</p>
-                        </div>
-                        <i className='bx bx-dots-vertical-rounded'></i>
-                    </li>
-                </ul>
-            </div>
-            {/* End of Reminders */}
-        </div>
     </main>
 </div>
   )

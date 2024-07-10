@@ -1,21 +1,33 @@
 import React from 'react'
+import '../styles/chat.css'; // Assuming this is your CSS file
 
 function Messages() {
   return (
     
-       <div className="content">
-            <main>
-                <div className="chat-window">
-                    <div className="chat-log">
-                        {/* messages will be displayed here */}
-                    </div>
-                    <div className="input-field">
-                        <input type="text" id="message-input" placeholder="Type a message..." />
-                        <button id="send-button">Send</button>
-                    </div>
-                </div>
-            </main>
+    <div className="chat-container">
+    <div className="chat-header">
+      <img src="MonPatient.png" alt="MonPatient" className="logo" />
+      <span className="chat-title">Chat</span>
+    </div>
+    <div className="chat-body">
+      <div className="chat-message doctor">
+        <div className="message-content">
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the
         </div>
+        <img src="avatar1.png" alt="Dr. Erica" className="avatar" />
+      </div>
+      <div className="chat-message user">
+        <div className="message-content">
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the
+        </div>
+        <img src="avatar2.png" alt="You" className="avatar" />
+      </div>
+    </div>
+    <div className="chat-footer">
+      <input type="text" className="message-input" placeholder="Type your message" />
+      <img src="send.png" alt="Send" className="send-icon" />
+    </div>
+  </div>
     
   )
 }

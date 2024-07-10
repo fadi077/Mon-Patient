@@ -7,7 +7,7 @@ const Dashboard = ({darkMode}) => {
       <main>
         <div className="header">
           <div className="left">
-            <h1>Dashboard</h1>
+            <h1>Home</h1>
             <ul className="breadcrumb">
               <li><a href="#">Home</a></li>
               <li>/</li>

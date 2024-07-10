@@ -8,7 +8,7 @@ function Documents() {
     <main>
         <div className="header">
             <div className="left">
-                <h1>Dashboard</h1>
+                <h1>Documents</h1>
                 <ul className="breadcrumb">
                     <li><a href="#">Home</a></li>
                     /
