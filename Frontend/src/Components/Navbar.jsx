@@ -22,10 +22,10 @@ const Navbar = ({ toggleDarkMode, darkMode }) => {
       <nav>
         <i className='bx bx-menu'></i>
         <form action="#">
-          <div className="form-input">
+          {/* <div className="form-input">
             <input type="search" placeholder="Search..." />
             <button className="search-btn" type="submit"><i className='bx bx-search'></i></button>
-          </div>
+          </div> */}
         </form>
         <input type="checkbox" id="theme-toggle" hidden onChange={handleThemeToggle} checked={darkMode} />
         <label htmlFor="theme-toggle" className="theme-toggle"></label>

@@ -18,8 +18,9 @@ const Dashboard = ({darkMode}) => {
         </div>
 
         <div className="bottom-data">
+
           <div className="orders">
-            <div className="header">
+            <div className="header-dashboard">
               <i className='bx bx-receipt'></i>
               <h3>Patient List</h3>
               <i className='bx bx-filter'></i>
@@ -63,7 +64,7 @@ const Dashboard = ({darkMode}) => {
           </div>
 
           <div className="reminders">
-            <div className="header">
+            <div className="header-dashboard">
               <i className='bx bx-note'></i>
               <h3>Reminders</h3>
               <i className='bx bx-filter'></i>
@@ -93,6 +94,7 @@ const Dashboard = ({darkMode}) => {
               </li>
             </ul>
           </div>
+
         </div>
       </main>
     </div>

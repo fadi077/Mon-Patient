@@ -12,7 +12,6 @@ function Sidebar() {
     return null;
   }
 
-
   return (
     <div className="sidebar">
       <div className="logo-div">

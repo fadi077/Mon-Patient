@@ -6,10 +6,16 @@
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: 24px;
     margin-top: 36px;
+    width: 80vw;
 }
 
+.content main .header{
+    width: 79vw;
+}
 
-
+/* .header-dashboard{
+    width: 60vw;
+} */
 
 .content main .insight li{
     padding: 24px;
@@ -104,32 +110,34 @@
     overflow-x: auto;
 }
 
-.content main .bottom-data .header{
+.content main .bottom-data .header-dashboard{
     display: flex;
     align-items: center;
     grid-gap: 16px;
     margin-bottom: 24px;
 }
 
-.content main .bottom-data .header h3{
+.content main .bottom-data .header-dashboard h3{
     margin-right: auto;
     font-size: 24px;
     font-weight: 600;
 }
 
-.content main .bottom-data .header .bx{
+.content main .bottom-data .header-dashboard .bx{
     cursor: pointer;
 }
 
 .content main .bottom-data .orders{
-    flex-grow: 1;
-    flex-basis: 500px;
+    width: 39vw;
+    /* flex: 1; */
+    /* flex-grow: 1;
+    flex-basis: 500px; */
 }
 
-.content main .bottom-data .orders table{
+/* .content main .bottom-data .orders table{
     width: 100%;
     border-collapse: collapse;
-}
+} */
 
 .content main .bottom-data .orders table th{
     padding-bottom: 12px;
