@@ -738,4 +738,6 @@ body{
         transition: background 0s;
        }
 
-       
+       @tailwind base;
+       @tailwind components;
+       @tailwind utilities;

@@ -17,7 +17,7 @@ function Sidebar() {
     <div className="sidebar">
       <div className="logo-div">
         <Link to="#">
-          <img className="logo-img" src="logo (2).png" alt="logo" />
+          <img className="logo-img" src="logo.png" alt="logo" />
         </Link>
         <Link to="#" className="logo">
           <div className="logo-name"><span>Mon</span>Patient</div>
